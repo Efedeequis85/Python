@@ -25,3 +25,5 @@
   _    stdout: La salida estándar del proceso. Puede ser  None si la captura de salida estándar no está habilitada. 
   _    stderr: La salida de error del proceso. Puede ser  None si la captura de la salida de error no está habilitada. 
   _    output: Atributo que indica la salida del comando y el error como una unica cadena
+
+
