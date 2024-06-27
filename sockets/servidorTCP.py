@@ -1,11 +1,8 @@
 # Los sockets se usan para enviar datos a traves de la red de un equipo a otro.
 import socket
 
-import socket
-
 # AF_INET para indicar que sera un socket IPV4
 # SOCK_STREAM para indicar que sera TCP
-
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Interefaz y puerto donde recibira los datos
