@@ -25,7 +25,7 @@ while True:
         break
       print(f"Datos: {data.decode()}")
 
-      # Send back a response
+      # Devolver al cliente los datos de repuesta
       client_socket.sendall(b"Datos recibidos: " + data)
 
   finally:
